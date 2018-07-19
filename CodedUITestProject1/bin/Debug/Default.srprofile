@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TestProfile xmlns="http://www.specflow.org/schemas/plus/TestProfile/1.5">
+  
+  <Settings projectName="CodedUITestProject1" 
+          projectId="{35c48aca-bb1b-48ea-9e07-34e2b8853aa2}"
+          reportTemplate=".\Report\specFlowReport.cshtml"
+            />
+
+  <Execution stopAfterFailures="0"
+         testThreadCount="1"
+         testSchedulingMode="Sequential"
+         retryCount="0"
+         apartmentState="MTA"
+                          />
+  <TestAssemblyPaths>
+    <TestAssemblyPath>CodedUITestProject1.dll</TestAssemblyPath>
+  </TestAssemblyPaths>
+
+
+  <DeploymentTransformation>
+    <Steps>
+      <ConfigFileTransformation configFile="App.config" >
+        <Transformation>
+          <![CDATA[<?xml version="1.0" encoding="utf-8"?>
+							<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+                              <appSettings>
+                                <add key="browser" value="{Target}" 
+                                 xdt:Locator="Match(key)" xdt:Transform="SetAttributes(value)" />
+                              </appSettings>
+							</configuration>
+						]]>
+        </Transformation>
+      </ConfigFileTransformation>
+    </Steps>
+  </DeploymentTransformation>
+
+  <Targets>
+    <Target name="Chrome">
+      <Filter>Browser_Chrome</Filter>
+    </Target>
+    <Target name="IE">
+      <Filter>Browser_IE</Filter>
+    </Target>
+    <Target name="Firefox">
+      <Filter>Browser_Firefox</Filter>
+    </Target>
+  </Targets>
+
+</TestProfile>

@@ -1,0 +1,23 @@
+﻿2018-07-19T16:06:29.5167384-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-07-19T16:06:29.6382971-03:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-07-19T16:06:29.6382971-03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\alramos\source\repos\CodedUITestProject1\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+2018-07-19T16:06:29.6382971-03:00;VSTestExecutionThread;Info;Profile: Default
+2018-07-19T16:06:38.8327770-03:00;Thread#16;Info;Discovering target: Chrome
+2018-07-19T16:06:38.8377765-03:00;Thread#16;Info;Discovering target: IE
+2018-07-19T16:06:38.8377765-03:00;Thread#16;Info;Discovering target: Firefox
+Test Suite Dump
+#0: CodedUITestProject1/Default - 
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 0
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0

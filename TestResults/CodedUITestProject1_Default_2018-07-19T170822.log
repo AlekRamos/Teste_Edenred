@@ -1,0 +1,61 @@
+﻿2018-07-19T17:08:22.5335547-03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2018-07-19T17:08:22.6853857-03:00;VSTestExecutionThread;Info;SpecRun Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2018-07-19T17:08:22.6853857-03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\alramos\source\repos\CodedUITestProject1\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+2018-07-19T17:08:22.6853857-03:00;VSTestExecutionThread;Info;Profile: Default
+2018-07-19T17:08:29.9326684-03:00;Thread#16;Info;Discovering target: Chrome
+2018-07-19T17:08:29.9375817-03:00;Thread#16;Info;Discovering tests from assembly: C:\Users\alramos\source\repos\CodedUITestProject1\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+Appdomain Disposed
+2018-07-19T17:08:30.0291209-03:00;Thread#16;Info;Discovering target: IE
+2018-07-19T17:08:30.0291209-03:00;Thread#16;Info;Discovering tests from assembly: C:\Users\alramos\source\repos\CodedUITestProject1\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+Appdomain Disposed
+2018-07-19T17:08:30.1007058-03:00;Thread#16;Info;Discovering target: Firefox
+2018-07-19T17:08:30.1017676-03:00;Thread#16;Info;Discovering tests from assembly: C:\Users\alramos\source\repos\CodedUITestProject1\CodedUITestProject1\bin\Debug\CodedUITestProject1.dll
+Appdomain Disposed
+Test Suite Dump
+#0: CodedUITestProject1/Default - 
+#1: Chrome - 
+#2: CodedUITestProject1 - 
+#3: Cadastrar email Blog ESPP - 
+#4: Cadastro do email para recebimento de atualizações - Target:Chrome/TestAssembly:CodedUITestProject1/Feature:Cadastrar+email+Blog+ESPP/Scenario:Cadastro+do+email+para+recebimento+de+atualiza%c3%a7%c3%b5es
+End: Test Suite Dump
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: testitem #4 from normal test queue 
+Thread#0:Scheduler: considering testitem #4 for thread 0
+Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+Thread#0:Scheduler: using testitem #4 for thread 0
+Thread#0:Scheduler: Test #4 is scheduled for thread
+Thread#0:Scheduler: with testItemExecutionIndex 0
+Thread #0: creating new test thread executor for CodedUITestProject1, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Chrome)
+Loading SpecRun type 'TechTalk.SpecRun.Framework.TestAssemblyExecutor' from: C:\Users\alramos\AppData\Local\Temp\VisualStudioTestExplorerExtensions\SpecRun.Runner.1.7.2\tools\TechTalk.SpecRun.Framework.Executor.dll
+Thread#0: Test #4/0 is started on thread #0
+Thread#0:T:-> Using app.config
+Thread#0:B:Dado que eu acesse a pagina "Edenred"
+Thread#0:T:done: Steps.StepPages("Edenred") (6,6s)
+Thread#0:B:Quando eu clicar no link "Blog"
+Thread#0:T:error: Timed out after 10 seconds
+Thread#0:B:E no campo "O que você procura" eu digitar "Pre pago"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:E eu clicar no botão "Buscar"
+Thread#0:T:skipped because of previous errors
+Thread#0:B:E eu aguardar por "5" segundos
+Thread#0:T:error: A cadeia de caracteres de entrada não estava em um formato correto.
+Thread#0:B:E eu clicar no botão "Assinar"
+Thread#0:T:skipped because of previous errors
+Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+Thread#0:Scheduler: get next test for thread 0
+Thread#:Scheduler: at the end of normal test queue
+Thread#0:Scheduler: enumerator for thread is at end
+Thread#0:Scheduler: No more tests for thread
+Thread#0: Test #4/0 is finished on thread #0 as Failed within 17,8955089 seconds
+Appdomain Disposed
+Thread#-1:Scheduler: get next test for thread -1
+Thread#:Scheduler: at the end of normal test queue
+Thread#-1:Scheduler: enumerator for thread is at end
+Total: 0
+Succeeded: 0
+Ignored: 0
+Pending: 0
+Skipped: 0
+Failed: 0
